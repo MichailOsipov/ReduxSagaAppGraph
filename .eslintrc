@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "./eslint.js"
+    ],
+    "globals": {
+        "VERSION": false
+    },
+    "settings": {
+      "import/resolver": {
+          "webpack": {
+                "config": {
+                    "resolve": {
+                        "modules": ["src", "node_modules"],
+                        "extensions": [".js", ".jsx"]
+                    }
+                }
+            }
+        }
+    }
+}
