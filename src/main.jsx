@@ -2,7 +2,7 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {ConnectedRouter} from 'connected-react-router';
-import {MainPage} from 'components/main-page';
+import {MainPage} from 'screens/main-page';
 import {store} from 'store/store';
 import {history} from 'store/history';
 
